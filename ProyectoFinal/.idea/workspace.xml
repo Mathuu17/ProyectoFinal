@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53d38e50-033a-4abe-9f81-4738b72b9460" name="Changes" comment="m" />
+    <list default="true" id="53d38e50-033a-4abe-9f81-4738b72b9460" name="Changes" comment="m">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/LMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/LMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/LMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/LMS/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +83,10 @@
       <workItem from="1683915861555" duration="6321000" />
       <workItem from="1683927931233" duration="1114000" />
       <workItem from="1684002820793" duration="1704000" />
-      <workItem from="1684019608117" duration="1855000" />
+      <workItem from="1684019608117" duration="3879000" />
+      <workItem from="1684031912085" duration="344000" />
+      <workItem from="1684032279371" duration="355000" />
+      <workItem from="1684035911341" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1683926513144</created>
