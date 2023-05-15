@@ -1,36 +1,45 @@
 package com.portafolio.lms.Service;
 
 import com.portafolio.lms.Entity.Persona;
-import com.portafolio.lms.Interface.IntPersonaService;
-import com.portafolio.lms.Repository.IntPersonaRepository;
+import com.portafolio.lms.Repository.IPersonaRepository;
 import java.util.List;
+import java.util.Optional;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpPersonaService implements IntPersonaService{
-    @Autowired IntPersonaRepository intpersonaRepository;
+@Transactional
+public class ImpPersonaService {
+
+    @Autowired
+    IPersonaRepository ipersonaRepository;
     
-    @Override
-    public List<Persona> getPersona() {
-        List<Persona> persona = intpersonaRepository.findAll();
-        return persona;
-    }
-
-    @Override
-    public void savePersona(Persona persona) {
-        intpersonaRepository.save(persona);
-    }
-
-    @Override
-    public void deletePersona(Long id) {
-        intpersonaRepository.deleteById(id);
-    }
-
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona = intpersonaRepository.findById(id).orElse(null);
-        return persona;
-    }
-    
+    public List<Persona> list(){
+         return ipersonaRepository.findAll();
+     }
+     
+     public Optional<Persona> getOne(int id){
+         return ipersonaRepository.findById(id);
+     }
+     
+     public Optional<Persona> getByNombre(String nombre){
+         return ipersonaRepository.findByNombre(nombre);
+     }
+     
+     public void save(Persona persona){
+         ipersonaRepository.save(persona);
+     }
+     
+     public void delete(int id){
+         ipersonaRepository.deleteById(id);
+     }
+     
+     public boolean existsById(int id){
+         return ipersonaRepository.existsById(id);
+     }
+     
+     public boolean existsByNombre(String nombre){
+         return ipersonaRepository.existsByNombre(nombre);
+     }
 }

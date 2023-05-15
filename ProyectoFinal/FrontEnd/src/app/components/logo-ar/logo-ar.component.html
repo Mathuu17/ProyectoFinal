@@ -5,12 +5,14 @@
       <img src="assets/Logo.png" id="logoarg">
     </div>
     <div class="redes">
-      <a href=""><img src="assets/facebook.png" id="facebook"></a>
+      <a href="/login"><img src="assets/facebook.png" id="facebook"></a>
       <a href=""><img src="assets/github.png" id="github"></a>
       <a href=""><img src="assets/instagram.png" id="instagram"></a>
       <a href=""><img src="assets/linkedin.png" id="linkedin"></a>
       <a href=""><img src="assets/twitter.png" id="twitter"></a>
-      <button type="button" class="btn btn-outline-primary" >Ingreso</button>
+      <button type="button" class="btn btn-outline-primary" (click)="login()" *ngIf="!isLogged" >Ingreso</button>
+      <button type="button" class="btn btn-outline-primary" (click)="onLogOut()" *ngIf="isLogged" >Ingreso</button>
+
     </div>
   </div>
 </div>

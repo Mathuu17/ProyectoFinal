@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53d38e50-033a-4abe-9f81-4738b72b9460" name="Changes" comment="m">
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/app/model/persona.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/LMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/LMS/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/LMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/LMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Controller/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Controller/PersonaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Entity/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Entity/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Interface/IntPersonaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Repository/IntPersonaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Service/ImpPersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/lms/src/main/java/com/portafolio/lms/Service/ImpPersonaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/acerca-de/acerca-de.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/acerca-de/acerca-de.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/acerca-de/acerca-de.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/acerca-de/acerca-de.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/educacion/educacion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/educacion/educacion.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/educacion/educacion.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/educacion/educacion.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/educacion/educacion.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/experiencia/experiencia.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/experiencia/experiencia.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/experiencia/experiencia.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/experiencia/experiencia.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/experiencia/experiencia.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +40,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/app/components/acerca-de/acerca-de.component.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/app/components/logo-ar/logo-ar.component.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/app.module.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/components/acerca-de/acerca-de.component.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/components/acerca-de/acerca-de.component.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/components/login/login.component.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/components/login/login.component.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/components/logo-ar/logo-ar.component.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/model/jwt-dto.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/model/login-usuario.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/model/nuevo-usuario.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/model/persona.model.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/service/auth.service.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/service/persona.service.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FrontEnd/src/app/service/token.service.ts" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,21 +63,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;M:/ProyectoFinal/ProyectoFinal&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;M:\\ProyectoFinal\\ProyectoFinal\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "M:/FrontEnd-repository",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "M:\\ProyectoFinal\\ProyectoFinal\\FrontEnd\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="M:\ProyectoFinal\ProyectoFinal\src\assets" />
@@ -87,6 +121,9 @@
       <workItem from="1684031912085" duration="344000" />
       <workItem from="1684032279371" duration="355000" />
       <workItem from="1684035911341" duration="166000" />
+      <workItem from="1684080279715" duration="12896000" />
+      <workItem from="1684103457238" duration="5132000" />
+      <workItem from="1684119438107" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1683926513144</created>
